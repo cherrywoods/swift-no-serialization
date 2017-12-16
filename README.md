@@ -1,0 +1,6 @@
+# swift-no-serialization
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+Utility framework to serialize arbitrary swift entities to Metas
+## instalation
+available over carthage
