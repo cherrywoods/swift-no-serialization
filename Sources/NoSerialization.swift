@@ -12,7 +12,7 @@ public class ToMetaSerialization: Serialization {
     
     public typealias Raw = Meta
     
-    private let translator = NoTranslator()
+    private let translator: Translator
     
     public func provideNewEncoder() -> MetaEncoder {
         
@@ -26,6 +26,10 @@ public class ToMetaSerialization: Serialization {
         
     }
     
-    public init() {}
+    public init(translator: Translator = NoTranslator()) {
+        
+        self.translator = translator
+        
+    }
     
 }
