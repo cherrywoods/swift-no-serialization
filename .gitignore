@@ -5,3 +5,4 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 .build/
+NoSerialization.framework.zip 
