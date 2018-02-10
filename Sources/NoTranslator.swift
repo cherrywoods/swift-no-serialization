@@ -35,9 +35,9 @@ public class NoTranslator: Translator {
         
     }
     
-    public func unwrap<T>(meta: Meta) throws -> T? {
+    public func unwrap<T>(meta: Meta, toType type: T.Type) throws -> T? {
         
-        return try wrappedTranslator.unwrap(meta: meta)
+        return try wrappedTranslator.unwrap(meta: meta, toType: type)
         
     }
     
